@@ -58,12 +58,37 @@
 			<p></p>
 			</div>
 			<div class="col-md-8">
-			<p>Search Form Here</p>
+				<form class="form-horizontal" id="searchFields">
+          			<div class ="form-group">
+          				<label for="location">Going to</label>
+            			<input type ="text" class="form-control" id="location" placeholder="City, destination, or landmark">
+            			<label for="checkinDate">Check in</label>
+           				<input type ="text" class="form-control" id="checkinDate" placeholder="mm/dd/yyyy">
+           				<label for="checkoutDate">Check out</label>
+            			<input type ="text" class="form-control" id="checkoutDate" placeholder="mm/dd/yyyy">
+                		<button type="submit" class="btn btn-success" id="searchBtn">Search</button>
+          			</div>
+        		</form>
 			</div>
 			<div class="col-md-2">
-			<p></p>
+			<!-- Could possibly add Advanced Search options later -->
+
+			<!-- <a class="glyphicon glyphicon-triangle-bottom" role="button" data-toggle="collapse" href="#advancedSearch" aria-expanded="false" aria-controls="advancedSearch"><span>More Search Options</span></a>
+        		<div class="collapse" id="advancedSearch">
+          			<div class="col-md-12">
+            			<div class="btn-group btn-input clearfix">
+             				<button type="button" class="btn btn-info dropdown-toggle form-control" data-toggle="dropdown">
+                				<span data-bind="label">Number of Rooms</span> <span class="caret"></span>
+              				</button>
+              				<ul class="dropdown-menu" role="menu">
+                				<li><a href="#">Number of Rooms</a></li>
+                				<li><a href="#">1 Room</a></li>
+                				<li><a href="#">2 Rooms</a></li>
+              				</ul>
+           				</div>
+					</div>
+				</div> -->
 			</div>
-		</div>
 		<div class="row">
 			<div class="col-md-2">
 			</div>
@@ -72,6 +97,7 @@
 			</div>
 			<div class="col-md-2">
 			</div>
+		</div>
 	</div>
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
