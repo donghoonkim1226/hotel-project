@@ -5,17 +5,26 @@
 .hotel-info {
 	margin: 35px;
 }
-<<<<<<< HEAD
+
 .modal-images {
 	max-width: 350px;
 	max-height: auto;
-=======
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .modal-open {
     overflow: scroll;
-}
-
-.hidden {
-	display: none;
->>>>>>> modalsAndStuff
 }
