@@ -5,3 +5,7 @@
 .hotel-info {
 	margin: 35px;
 }
+.modal-images {
+	max-width: 350px;
+	max-height: auto;
+}
