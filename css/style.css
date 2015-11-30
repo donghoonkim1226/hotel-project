@@ -1,7 +1,15 @@
 .hotel-thumbnail {
-	width: 450px;
+	width: 150px;
 }
 
 .hotel-info {
 	margin: 35px;
+}
+
+.modal-open {
+    overflow: scroll;
+}
+
+.hidden {
+	display: none;
 }
