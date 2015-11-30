@@ -6,6 +6,8 @@
 
 $(document).ready(function() {
 	$(".row-delete").hide();
+	$('#checkinDate').datepicker();
+	$('#checkoutDate').datepicker();
 
   $(".hide-listing").on("click", function() {
       $(this).closest(".row-delete").remove();
@@ -19,6 +21,7 @@ $(".btn-success").click(function(e) {
   	$(".row-delete").show();
     }
 });
+
 
 
 
